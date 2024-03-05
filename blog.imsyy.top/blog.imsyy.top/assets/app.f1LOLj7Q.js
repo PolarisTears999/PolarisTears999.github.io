@@ -1,0 +1,7 @@
+import{a3 as e,a4 as a,a5 as t,a6 as n,a7 as s,a8 as r,a9 as o,aa as p,ab as u,ac as c,ad as i,V as m,ae as l,u as d,l as h,af as f,ag as g,ah as A,ai as v,W as j}from"./chunks/framework.CxH4hMT3.js";import{R as E}from"./chunks/theme.CCmQPZTN.js";const _=function e(a){if(a.extends){const t=e(a.extends);return{...t,...a,async enhanceApp(e){t.enhanceApp&&await t.enhanceApp(e),a.enhanceApp&&await a.enhanceApp(e)}}}return a}(E),k=l({name:"VitePressApp",setup(){const{site:e,lang:a,dir:t}=d();return h((()=>{f((()=>{document.documentElement.lang=a.value,document.documentElement.dir=t.value}))})),e.value.router.prefetchLinks&&g(),A(),v(),_.setup&&_.setup(),()=>j(_.Layout)}});async function w(){const a=function(){let a,t=e;return c((n=>{let s=i(n),r=null;return s&&(t&&(a=s),(t||a===s)&&(s=s.replace(/\.js$/,".lean.js")),r=m((()=>import(s)),__vite__mapDeps([]))),e&&(t=!1),r}),_.NotFound)}(),l=u(k);l.provide(t,a);const d=n(a.route);return l.provide(s,d),l.component("Content",r),l.component("ClientOnly",o),Object.defineProperties(l.config.globalProperties,{$frontmatter:{get:()=>d.frontmatter.value},$params:{get:()=>d.page.value.params}}),_.enhanceApp&&await _.enhanceApp({app:l,router:a,siteData:p}),{app:l,router:a,data:d}}e&&w().then((({app:e,router:t,data:n})=>{t.go().then((()=>{a(t.route,n.site),e.mount("#app")}))}));export{w as createApp};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = []
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
