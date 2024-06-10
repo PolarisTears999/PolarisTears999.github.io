@@ -1,7 +1,7 @@
 <!-- _coverpage.md -->
 
 <!-- 封面logo的位置 -->
-![logo](_media/icon.svg)
+![logo](./pic/icon.png)
 
 <!-- 封面的文字 -->
 # docsify <small>3.5</small>
