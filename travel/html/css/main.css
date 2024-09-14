@@ -751,7 +751,7 @@ a {
   height: 100%;
   background-color: var(--color-def);
   transform: translateX(100%);
-  animation: overlay 1s 0.05s ease forwards;/* 图标开始出现时间 + 图标背景停留时间*/
+  animation: overlay 1.5s 0.05s ease forwards;/* 图标开始出现时间 + 图标背景停留时间*/
   z-index: -1;
 }
 .preloader-item img {
